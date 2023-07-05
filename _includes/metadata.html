@@ -180,6 +180,10 @@
         {%- capture link -%}https://instagram.com/{{ site.instagram_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.tiktok_id -%}
+        {%- capture link -%}https://tiktok.com/{{ site.tiktok_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if site.facebook_id -%}
         {%- capture link -%}https://facebook.com/{{ site.facebook_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}

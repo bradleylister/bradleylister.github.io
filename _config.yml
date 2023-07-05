@@ -73,7 +73,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: https://twitter.com/Bradley_Lister_
+twitter_username: Bradley_Lister_
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
@@ -100,11 +100,11 @@ lastfm_id: # your lastfm id
 spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
-instagram_id: https://www.instagram.com/bradlister94/
+instagram_id: bradlister94
 facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
-tiktok_id: https://www.tiktok.com/@bradleylister0
+tiktok_id: @bradleylister0
 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
