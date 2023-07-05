@@ -62,9 +62,13 @@
               </li>
               {%- endif %}
 
-              <!-- Other pages -->
+              
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
+              {%- if p.nav and p.autogen == nil -%}
+              {%- if p.dropdown %}
+              <!-- Do nothing -->
+              {%- else %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
                   {%- if page.title == p.title -%}
